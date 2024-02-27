@@ -233,7 +233,7 @@ home-content p{
 }
 
 .portfolio{
-    background: va(--snd-bg-color);
+    background: var(--snd-bg-color);
 }
 
 .portfolio h2{
