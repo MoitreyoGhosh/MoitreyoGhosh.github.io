@@ -17,7 +17,7 @@
     --bg-color:#191f36;
     --snd-bg-color:#262840;
     --text-color:#fff;
-    --main-color:#5982F4;
+    --main-color:#59d8f4;
 }
 
 html{
@@ -65,6 +65,11 @@ section{
 .navbar a:hover,
 .navbar a.active{
     color: var(--text-color);
+}
+
+.navbar a:hover{
+    color: var(--main-color);
+    text-shadow: 0 0 1rem var(--main-color);
 }
 
 #menu-icon {
